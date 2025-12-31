@@ -1,6 +1,7 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Pixelify Sans", sans-serif;
 }
+
 h1 {
   font-weight: 600;
 }
