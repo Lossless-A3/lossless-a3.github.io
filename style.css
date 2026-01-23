@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
-.title {
+h1.title {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 3rem;
 }
 
-.subtitle {
+p.subtitle {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 1.5rem;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
