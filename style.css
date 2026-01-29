@@ -1,17 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
-h1.title {
+body {
+    height: 860px;
+    background-image: url("images/Intro_flashback_1.png");
+    background-size: 100% 100%;
+}
+
+.page nav {
+    align-self: block-end;
+}
+
+.title {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 3rem;
 }
 
-p.subtitle {
+.subtitle {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 1.5rem;
 }
 
-img.center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    vertical-align: middle;
+    padding: 3px;
+    bottom: 0;
 }
