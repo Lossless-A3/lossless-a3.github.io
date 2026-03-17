@@ -184,3 +184,48 @@ footer p {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+.page-title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 50px 0;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.our-game {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.step.reverse {
+    flex-direction: row-reverse;
+}
+
+.step img {
+    width: 270px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.step-text {
+    flex: 1;
+}
+
+.step-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.step-text p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
