@@ -33,14 +33,25 @@ nav {
 }
 
 nav a {
-    color: rgb(128, 24, 24);
+    display: inline-block;
+    padding: 8px 18px;
+
+    background-color: #801818;
+    color: white;
+
     text-decoration: none;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 14px !important;
+    font-size: 14px;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #981515;
+    background-color: #a02020;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hero {
