@@ -77,11 +77,15 @@ nav a:hover {
     font-size: 1.2rem;
 }
 
+
 .features {
     display: flex;
     justify-content: space-around;
     padding: 50px 20px;
     background-color: #f5f5f5;
+}
+.features h3,
+.features p {
     font-family: "Pixelify Sans", sans-serif;
 }
 
