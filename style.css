@@ -153,21 +153,23 @@ footer p {
 .download-btn {
     display: inline-block;
     margin-top: 25px;
-    padding: 12px 25px;
+    padding: 14px 30px;
 
-    background-color: rgb(128, 24, 24);
+    background-color:  #801818;
     color: white;
 
     font-family: "Pixelify Sans", sans-serif;
     font-size: 16px;
 
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: none;
 
     transition: 0.3s;
 }
 
 .download-btn:hover {
-    background-color: #981515;
+    background-color: #a02020;
     transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
