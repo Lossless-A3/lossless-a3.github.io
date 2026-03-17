@@ -47,3 +47,48 @@ nav a {
 nav a:hover {
     color: #ffffff;
 }
+
+
+/* ===== HERO (haut avec images) ===== */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 20px;
+}
+
+/* images sur les côtés */
+.side {
+    width: 25%;
+}
+
+.side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* texte au centre */
+.center-text {
+    width: 50%;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.center-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.center-text p {
+    font-size: 1.2rem;
+}
+
+/* ===== SECTION TEXTE (scroll) ===== */
+.content {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1.6;
+}
