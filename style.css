@@ -22,37 +22,6 @@ body {
     margin-right: auto;
 }
 
-footer {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 50px;
-}
-
-.footer-content {
-    font-family: "Pixelify Sans", sans-serif;
-}
-
-.socials {
-    margin: 10px 0;
-}
-
-.socials a {
-    color: rgb(128, 24, 24);
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-.socials a:hover {
-    color: #00bcd4;
-}
-
-footer p {
-    margin: 5px;
-}
-
 
 nav {
     display: flex;             
@@ -66,7 +35,7 @@ nav a {
     color: rgb(128, 24, 24);
     text-decoration: none;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 20px;
+    font-size: 14px !important;
 }
 
 nav a:hover {
@@ -115,3 +84,34 @@ nav a:hover {
     font-family: "Pixelify Sans", sans-serif;
     line-height: 1.6;
 }
+footer {
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials a {
+    color: rgb(128, 24, 24);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    margin: 5px;
+}
+
