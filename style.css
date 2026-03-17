@@ -34,14 +34,14 @@ nav {
 
 nav a {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 15px 35px;
 
     background-color: #801818;
     color: white;
 
     text-decoration: none;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 
     border-radius: 10px;
 
