@@ -2,8 +2,8 @@
 
 body {
     height: 860px;
-    background-image: url("images/Intro_flashback_1.png");
-    background-size: 100% 100%;
+    /*background-image: url("images/Intro_flashback_1.png");*/
+    background-color: #ffffff;
 }
 
 
@@ -35,7 +35,7 @@ nav {
     display: flex;             
     justify-content: center;  
     gap: 20px;                  
-    background-color: rgba(0,0,0,0.7);
+    background-color: #ffffff;
     padding: 15px;
 }
 
