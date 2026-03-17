@@ -24,10 +24,34 @@ body {
 }
 
 footer {
-    position: fixed;
-    vertical-align: middle;
-    padding: 3px;
-    bottom: 0;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    margin: 5px;
 }
 
 
