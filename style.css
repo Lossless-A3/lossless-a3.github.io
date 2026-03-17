@@ -85,12 +85,21 @@ nav a:hover {
     padding: 50px 20px;
     background-color: #ffffff;
 }
-.features h3,
+.features h3 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
 .features p {
+    font-size: 1rem;
+    opacity: 0.8;
     font-family: "Pixelify Sans", sans-serif;
 }
 
 .feature {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     width: 25%;
     text-align: center;
     display:flex;
