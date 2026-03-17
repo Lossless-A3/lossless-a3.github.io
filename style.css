@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
 
-body {
-    height: 860px;
-    background-image: url("images/Intro_flashback_1.png");
-    background-size: 100% 100%;
-}
 
 .page nav {
     align-self: block-end;
