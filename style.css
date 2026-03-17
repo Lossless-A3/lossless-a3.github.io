@@ -101,6 +101,143 @@ nav a:hover {
     font-family: "Pixelify Sans", sans-serif;
     line-height: 1.6;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+body {
+    /*background-image: url("images/Intro_flashback_1.png");*/
+    background-color: #ffffff;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+.title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+nav {
+    display: flex;             
+    justify-content: center;  
+    gap: 20px;                  
+    padding: 15px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+nav a {
+    color: rgb(128, 24, 24);
+    text-decoration: none;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px !important;
+}
+
+nav a:hover {
+    color: #981515;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    padding: 20px;
+}
+
+/* images sur les côtés */
+.side {
+    width: 25%;
+}
+
+.side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.center-text {
+    width: 50%;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.center-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.center-text p {
+    font-size: 1.2rem;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+.features h3,
+.features p {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.feature {
+    width: 25%;
+    text-align: center;
+}
+
+.content {
+    padding: 50px;
+    max-width: 800px;
+    margin: auto;
+    font-family: "Pixelify Sans", sans-serif;
+    line-height: 1.6;
+}
+footer {
+    background: none;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.socials {
+    margin: 10px 0;
+}
+
+.socials a {
+    color: rgb(128, 24, 24);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.socials a:hover {
+    color: #00bcd4;
+}
+
+footer p {
+    margin: 5px;
+}
+
+
+
 footer {
     background: none;
     color: black;
