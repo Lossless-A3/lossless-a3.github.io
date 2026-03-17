@@ -35,7 +35,6 @@ nav {
     display: flex;             
     justify-content: center;  
     gap: 20px;                  
-    background-color: #ffffff;
     padding: 15px;
 }
 
