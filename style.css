@@ -205,6 +205,11 @@ nav a:hover {
     font-family: "Pixelify Sans", sans-serif;
     line-height: 1.6;
 }
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 footer {
     background: none;
     color: black;
