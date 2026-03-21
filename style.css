@@ -336,3 +336,68 @@ footer p {
 .ref-content a:hover {
     text-decoration: underline;
 }
+
+
+.team {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.team-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto 60px;
+    opacity: 0.8;
+}
+
+
+.team-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+.member-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.member-block.reverse {
+    flex-direction: row-reverse;
+}
+
+
+.member-block img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.member-block:nth-child(odd) img {
+    transform: rotate(-2deg);
+}
+
+.member-block:nth-child(even) img {
+    transform: rotate(2deg);
+}
+
+.member-text {
+    flex: 1;
+}
+
+.member-text h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.member-text p {
+    opacity: 0.8;
+}
