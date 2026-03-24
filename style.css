@@ -401,3 +401,21 @@ footer p {
 .member-text p {
     opacity: 0.8;
 }
+
+.member-right-img {
+    width: 200px;
+    border-radius: 20px;
+    transform: rotate(3deg); 
+    transition: transform 0.3s ease;
+}
+
+.member-right-img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.member-right-img {
+    width: 200px;
+    border-radius: 20px;
+    transform: rotate(3deg);
+    box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
+}
