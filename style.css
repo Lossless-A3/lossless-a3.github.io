@@ -419,3 +419,20 @@ footer p {
     transform: rotate(3deg);
     box-shadow: -10px 10px 20px rgba(0,0,0,0.2);
 }
+
+
+.manual-btn{
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: #8B0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.manual-btn:hover{
+    opacity: 0.8;
+}
