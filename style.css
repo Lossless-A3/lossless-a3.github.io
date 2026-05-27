@@ -421,18 +421,26 @@ footer p {
 }
 
 
-.manual-btn{
-    display: inline-block;
-    padding: 8px 18px;
-    background-color: #8B0000;
-    color: white;
-    text-decoration: none;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: bold;
-    transition: 0.3s;
+.game-download {
+    text-align: center;
 }
 
-.manual-btn:hover{
-    opacity: 0.8;
+.game-download .download-btn {
+    display: inline-block;
+}
+
+.game-download .manual-btn {
+    display: block;
+    width: fit-content;
+    margin: 15px auto 0 auto;
+    padding: 7px 14px;
+    background-color: #8b1515;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.game-download .manual-btn:hover {
+    background-color: #6f1010;
 }
